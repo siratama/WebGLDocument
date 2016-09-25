@@ -1,0 +1,6 @@
+-js deploy/js/main.js
+-main webgldoc.Main
+-cp src/app
+-cp src/extern
+-lib jQueryExtern
+-debug

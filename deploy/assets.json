@@ -1,0 +1,6 @@
+﻿{
+  "structure": "main.json",
+  "atlas": [
+	["main_atlas.json", "main_atlas.png"]
+  ]
+}
