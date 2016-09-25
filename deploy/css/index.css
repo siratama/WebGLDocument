@@ -1,3 +1,12 @@
+#error_display
+{
+	display.none;
+}
+#canvas
+{
+	border: none;
+}
+
 /*
 canvas{
     -ms-interpolation-mode: nearest-neighbor;
@@ -7,3 +16,4 @@ canvas{
     image-rendering: pixelated;
 }
 */
+
