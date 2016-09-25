@@ -1,11 +1,13 @@
 package webgldoc;
+
 import js.html.CanvasElement;
-import flwebgl.geom.Rect;
+import js.Browser;
 import webgldoc.load.AssetsJsonLoader;
 import webgldoc.load.AssetsLoader;
+import flwebgl.geom.Rect;
 import flwebgl.Player;
-import js.Browser;
 import haxe.Timer;
+
 class Main
 {
 	public static inline var FPS = 24;
@@ -103,18 +105,6 @@ class Main
 		player.setViewport(new Rect(0, 0, width, height));
 
 		player.play();
-
-		/*
-		var scenegraphFactory =  player.getScenegraphFactory();
-		var movieMC = scenegraphFactory.createMovieClipInstance("movie.Movie");
-
-		var matrix = new Matrix();
-		matrix.scale(2, 2);
-		movieMC.setLocalTransform(matrix);
-
-		player.getStage().addChild(movieMC);
-		*/
-
 		mainFunction = play;
 	}
 	private function play()
